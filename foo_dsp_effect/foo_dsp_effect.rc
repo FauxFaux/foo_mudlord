@@ -1,0 +1,294 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ECHO DIALOGEX 0, 0, 284, 131
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Echo DSP Configuration"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,172,112,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,226,112,50,14
+    CONTROL         "",IDC_SLIDER_MS,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,12,12,260,24
+    CTEXT           "N ms",IDC_SLIDER_LABEL_MS,120,44,44,8
+    CONTROL         "",IDC_SLIDER_AMP,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,12,60,260,24
+    CTEXT           "N%",IDC_SLIDER_LABEL_AMP,120,92,44,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ECHO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 277
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 124
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Australia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENA)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_AUS
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_REVERB DIALOGEX 0, 0, 316, 201
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Reverb DSP Configuration"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,204,186,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,258,186,50,14
+    CONTROL         "",IDC_DRYTIME,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,0,6,312,21
+    LTEXT           "Dry Time :",IDC_DRYTIMEINFO,114,30,78,12
+    CONTROL         "",IDC_WETTIME,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,0,48,312,21
+    LTEXT           "Wet Time :",IDC_WETTIMEINFO,114,72,78,12
+    CONTROL         "",IDC_DAMPING,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,0,84,312,21
+    LTEXT           "Damping  :",IDC_DAMPINGINFO,114,108,78,12
+    CONTROL         "",IDC_ROOMSIZE,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,0,120,312,21
+    LTEXT           "Room Size  :",IDC_ROOMSIZEINFO,114,144,78,12
+    CONTROL         "",IDC_ROOMWIDTH,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,0,162,312,21
+    LTEXT           "Room Width  :",IDC_ROOMWIDTHINFO,114,186,78,12
+END
+
+IDD_PHASER DIALOGEX 0, 0, 316, 207
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Phaser DSP Configuration"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,204,186,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,258,186,50,14
+    CONTROL         "",IDC_PHASERSTAGES,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,6,6,306,18
+    LTEXT           "Stages",IDC_PHASERSTAGESINFO,126,24,90,8
+    CONTROL         "",IDC_PHASERSDRYWET,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,6,36,306,18
+    LTEXT           "Dry/Wet",IDC_PHASERDRYWETINFO,126,60,90,8
+    CONTROL         "",IDC_PHASERSLFOFREQ,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,6,72,306,18
+    LTEXT           "LFO Frequency",IDC_PHASERSLFOFREQINFO,126,90,90,8
+    CONTROL         "",IDC_PHASERSLFOSTARTPHASE,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,6,102,306,18
+    LTEXT           "LFO Start Phase",IDC_PHASERSLFOSTARTPHASEINFO,126,120,90,8
+    CONTROL         "",IDC_PHASERSDEPTH,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,6,132,306,18
+    LTEXT           "Depth",IDC_PHASERSDEPTHINFO,126,156,90,8
+    CONTROL         "",IDC_PHASERSFEEDBACK,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,6,168,306,18
+    LTEXT           "Feedback",IDC_PHASERSFEEDBACKINFO,126,186,72,8
+END
+
+IDD_WAHWAH DIALOGEX 0, 0, 316, 189
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "WahWah DSP Configuration"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,204,174,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,258,174,50,14
+    CONTROL         "",IDC_WAHDEPTH,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,6,6,300,18
+    LTEXT           "Depth",IDC_WAHDEPTHINFO,144,24,156,12
+    CONTROL         "",IDC_WAHRESONANCE,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,6,36,300,18
+    LTEXT           "Resonance",IDC_WAHRESONANCEINFO,144,60,156,12
+    CONTROL         "",IDC_WAHFREQOFFSET,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,6,72,300,18
+    LTEXT           "Wah Freq. Offset",IDC_WAHFREQOFFSETINFO,144,90,156,12
+    CONTROL         "",IDC_WAHLFOFREQ,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,6,102,300,18
+    LTEXT           "LFO Freq.",IDC_WAHLFOFREQINFO,144,120,152,12
+    CONTROL         "",IDC_WAHLFOSTARTPHASE,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,6,132,300,18
+    LTEXT           "LFO Starting Phase",IDC_WAHLFOPHASEINFO,144,156,155,12
+END
+
+IDD_DYNAMICS DIALOGEX 0, 0, 208, 197
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dynamics Compressor"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Slider1",IDC_DYNAMICSPEAKLIMIT,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,5,17,197,15
+    LTEXT           "Release time:",IDC_SLIDER,47,42,44,8
+    CONTROL         "Slider1",IDC_DYNAMICSRELEASETIME,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,5,50,197,15
+    LTEXT           "Fast Compressor Ratio:",IDC_SLIDER,47,74,76,8
+    LTEXT           "Slow Compressor Ratio:",IDC_SLIDER,47,106,77,8
+    LTEXT           "Input Gain:",IDC_SLIDER,47,140,37,8
+    CONTROL         "Slider2",IDC_DYNAMICSFASTRATIO,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,5,82,197,15
+    CONTROL         "Slider3",IDC_DYNAMICSSLOWRATIO,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,5,116,197,15
+    CONTROL         "Slider4",IDC_DYNAMICSGAIN,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,5,149,197,15
+    LTEXT           "0 dB",IDC_DYNAMICSDISPLAY_GAIN,129,140,38,8
+    LTEXT           "100 %",IDC_DYNAMICSDISPLAY_PEAK,129,10,37,8
+    LTEXT           "Peak Limit:",IDC_SLIDER,47,10,35,8
+    LTEXT           "300 ms",IDC_DYNAMICSDISPLAY_RELEASE,129,42,36,8
+    LTEXT           "1,3:inf",IDC_DYNAMICSDISPLAY_FASTRATIO,129,74,38,8
+    LTEXT           "2,0:inf",IDC_DYNAMICSDISPLAY_SLOWRATIO,129,106,40,8
+    PUSHBUTTON      "OK",IDOK,12,174,66,18
+    PUSHBUTTON      "Cancel",IDCANCEL,132,174,66,18
+END
+
+IDD_IIR DIALOGEX 0, 0, 316, 129
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "IIR Filter Configuration"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,204,108,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,258,108,50,14
+    CONTROL         "",IDC_IIRFREQ,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,6,12,300,24
+    LTEXT           "Frequency",IDC_IIRFREQINFO,132,42,126,11
+    CONTROL         "",IDC_IIRGAIN,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,7,58,300,19
+    LTEXT           "Gain (db)",IDC_IIRGAININFO,133,87,126,13
+    COMBOBOX        IDC_IIRTYPE,12,108,132,114,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "IIR Filter Type",IDC_STATIC,12,96,90,8
+END
+
+IDD_PITCH DIALOGEX 0, 0, 316, 75
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Pitch Shift DSP Configuration"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,198,54,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,252,54,50,14
+    CONTROL         "",IDC_PITCH,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,6,24,300,18
+    LTEXT           "Pitch : 111111 semitones",IDC_PITCHINFO,120,6,138,12
+END
+
+IDD_TEMPO DIALOGEX 0, 0, 316, 69
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tempo DSP Configuration"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Tempo: 50%",IDC_TEMPOINFO,138,6,126,12
+    DEFPUSHBUTTON   "OK",IDOK,192,42,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,246,42,50,14
+    CONTROL         "",IDC_TEMPO,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,12,24,288,18
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_REVERB, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_PHASER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 200
+    END
+
+    IDD_WAHWAH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 182
+    END
+
+    IDD_IIR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 122
+    END
+
+    IDD_PITCH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 68
+    END
+
+    IDD_TEMPO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 62
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (Australia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
