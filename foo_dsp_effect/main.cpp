@@ -1,7 +1,7 @@
 #include "../SDK/foobar2000.h"
 #include "SoundTouch/SoundTouch.h"
 
-#define MYVERSION "0.8"
+#define MYVERSION "0.9"
 
 static pfc::string_formatter g_get_component_about()
 {
@@ -18,7 +18,7 @@ static pfc::string_formatter g_get_component_about()
 
 DECLARE_COMPONENT_VERSION_COPY(
 "Effect DSP",
-	MYVERSION,
-	g_get_component_about()
-	);
+MYVERSION,
+g_get_component_about()
+);
 VALIDATE_COMPONENT_FILENAME("foo_dsp_effect.dll");
