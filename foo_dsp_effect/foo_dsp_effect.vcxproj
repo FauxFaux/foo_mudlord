@@ -115,6 +115,7 @@
     <ClCompile Include="dsp_iir.cpp" />
     <ClCompile Include="dsp_phaser.cpp" />
     <ClCompile Include="dsp_pitch.cpp" />
+    <ClCompile Include="dsp_rate.cpp" />
     <ClCompile Include="dsp_tempo.cpp" />
     <ClCompile Include="dsp_wahwah.cpp" />
     <ClCompile Include="main.cpp" />

@@ -57,6 +57,8 @@
 #define IDC_PEAKLIMIT                   1047
 #define IDC_DYNAMICSPEAKLIMIT           1047
 #define IDC_IIRFREQINFO                 1047
+#define IDD_TEMPO1                      1047
+#define IDD_RATE                        1047
 #define IDC_RELEASETIME                 1048
 #define IDC_DYNAMICSRELEASETIME         1048
 #define IDC_IIRQ                        1048
@@ -84,6 +86,8 @@
 #define IDC_DYNAMICSDISPLAY_SLOWRATIO   1056
 #define IDC_TEMPO                       1056
 #define IDC_TEMPOINFO                   1057
+#define IDC_RATEINFO                    1060
+#define IDC_RATE                        1061
 #define IDC_SLIDER                      -1
 
 // Next default values for new objects
@@ -92,7 +96,7 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NEXT_RESOURCE_VALUE        109
 #define _APS_NEXT_COMMAND_VALUE         40001
-#define _APS_NEXT_CONTROL_VALUE         1060
+#define _APS_NEXT_CONTROL_VALUE         1062
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif
