@@ -180,7 +180,7 @@ public:
 	enum
 	{
 		pitchmin = 0,
-		pitchmax = 200
+		pitchmax = 150
 
 	};
 	BEGIN_MSG_MAP( CMyDSPPopup )
@@ -198,7 +198,7 @@ private:
 		{
 			float  pitch;
 			dsp_rate::parse_preset(pitch, m_initData);
-			slider_drytime.SetPos( (double)(pitch+100));
+			slider_drytime.SetPos( (double)(pitch+50));
 			RefreshLabel( pitch);
 		}
 		return TRUE;
@@ -212,7 +212,7 @@ private:
 	void OnHScroll( UINT nSBCode, UINT nPos, CScrollBar pScrollBar )
 	{
 		float pitch;
-		pitch = slider_drytime.GetPos()-100;
+		pitch = slider_drytime.GetPos()-50;
 		{
 			dsp_preset_impl preset;
 			dsp_rate::make_preset(pitch, preset );

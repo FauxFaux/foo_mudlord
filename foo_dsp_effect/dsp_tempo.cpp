@@ -196,7 +196,7 @@ public:
 	enum
 	{
 		pitchmin = 0,
-		pitchmax = 100
+		pitchmax = 150
 
 	};
 	BEGIN_MSG_MAP( CMyDSPPopup )
