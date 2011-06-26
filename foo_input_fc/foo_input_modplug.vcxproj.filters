@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="fclib\Dump.cpp">
+      <Filter>FC</Filter>
+    </ClCompile>
+    <ClCompile Include="fclib\FC.cpp">
+      <Filter>FC</Filter>
+    </ClCompile>
+    <ClCompile Include="fclib\FC_Data.cpp">
+      <Filter>FC</Filter>
+    </ClCompile>
+    <ClCompile Include="fclib\fc14audiodecoder.cpp">
+      <Filter>FC</Filter>
+    </ClCompile>
+    <ClCompile Include="fclib\LamePaulaMixer.cpp">
+      <Filter>FC</Filter>
+    </ClCompile>
+    <ClCompile Include="fclib\LamePaulaVoice.cpp">
+      <Filter>FC</Filter>
+    </ClCompile>
+    <ClCompile Include="fclib\Paula.cpp">
+      <Filter>FC</Filter>
+    </ClCompile>
+    <ClCompile Include="input_fc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fclib\Dump.h">
+      <Filter>FC</Filter>
+    </ClInclude>
+    <ClInclude Include="fclib\FC.h">
+      <Filter>FC</Filter>
+    </ClInclude>
+    <ClInclude Include="fclib\fc14audiodecoder.h">
+      <Filter>FC</Filter>
+    </ClInclude>
+    <ClInclude Include="fclib\LamePaula.h">
+      <Filter>FC</Filter>
+    </ClInclude>
+    <ClInclude Include="fclib\MyEndian.h">
+      <Filter>FC</Filter>
+    </ClInclude>
+    <ClInclude Include="fclib\MyTypes.h">
+      <Filter>FC</Filter>
+    </ClInclude>
+    <ClInclude Include="fclib\Paula.h">
+      <Filter>FC</Filter>
+    </ClInclude>
+    <ClInclude Include="fclib\SmartPtr.h">
+      <Filter>FC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="FC">
+      <UniqueIdentifier>{96069f8b-979a-4139-bfa6-6bc010585f07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
